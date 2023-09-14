@@ -13,11 +13,13 @@ interface MovieAPI {
 
     //Example Request:
     //https://api.themoviedb.org/3/movie/550?api_key=77396af91815c9da24186f792a95e391
+    //https://api.themoviedb.org/3/movie/popular?page=1&api_key=77396af91815c9da24186f792a95e391
 
     @GET("3/movie/popular")
     suspend fun getPopularMovies(
-        @Query("api_key")  apiKey: String = API_KEY,
-    ) : PopularMoviesDto
+        @Query("page") page: Int = 1,
+        @Query("api_key") apiKey: String = API_KEY
+    ): PopularMoviesDto
 
     @GET("3/movie/{movieId}")
     suspend fun getOneMovie(
