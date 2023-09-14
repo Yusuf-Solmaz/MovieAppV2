@@ -1,7 +1,7 @@
 package com.yusuf.movieappv2.data.remote
 
-import com.yusuf.movieappv2.data.remote.dto.MovieDto
-import com.yusuf.movieappv2.data.remote.dto.PopularMoviesDto
+import com.yusuf.movieappv2.data.remote.dto.movieDto.MovieDto
+import com.yusuf.movieappv2.data.remote.dto.popularMoviesDto.PopularMoviesDto
 import com.yusuf.movieappv2.util.Constants.API_KEY
 import retrofit2.http.GET
 import retrofit2.http.Path
