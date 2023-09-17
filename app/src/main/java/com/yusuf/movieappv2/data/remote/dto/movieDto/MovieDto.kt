@@ -1,5 +1,7 @@
 package com.yusuf.movieappv2.data.remote.dto.movieDto
 
+import com.yusuf.movieappv2.domain.model.Movie
+
 data class MovieDto(
     val adult: Boolean,
     val backdrop_path: String,
