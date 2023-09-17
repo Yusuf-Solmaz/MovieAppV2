@@ -11,5 +11,6 @@ class GetMovieUseCase : KoinComponent{
     @Throws(Exception::class)
     suspend operator fun invoke(page: Int): List<Movie>{
         return repo.getMovies(page = page)
+
     }
 }
