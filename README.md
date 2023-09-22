@@ -2,7 +2,7 @@ This project was prepared to show random popular movies and movie details. Data 
 
 
 
-<img src=<![ezgif com-video-to-gif (4)](https://github.com/Yusuf-Solmaz/MovieAppV2/assets/83172478/d8acd69e-bac3-42cb-af7e-fad83cdd165d)>  height="275">
+<img src=<![ezgif com-video-to-gif (4)](https://github.com/Yusuf-Solmaz/MovieAppV2/assets/83172478/d8acd69e-bac3-42cb-af7e-fad83cdd165d)>  height="200">
 
 ## Libraries Used
 
