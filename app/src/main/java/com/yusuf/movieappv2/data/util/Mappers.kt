@@ -22,4 +22,4 @@ fun PopularMoviesDto.toMovieDetail (): List<Movie>{
     }
 }
 
-private fun getImageUrl(imageUrl: String) = "https://image.tmdb.org/t/p/w500/$imageUrl"
+internal fun getImageUrl(imageUrl: String) = "https://image.tmdb.org/t/p/w500/$imageUrl"
