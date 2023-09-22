@@ -16,6 +16,7 @@
         tools:srcCompat="@tools:sample/backgrounds/scenic" />
 
     <TextView
+        android:textColor="#ccf5ac"
         android:textStyle="bold"
         android:textSize="25sp"
         android:id="@+id/movieTitle"
@@ -25,6 +26,7 @@
         android:text="TextView" />
 
     <TextView
+        android:textColor="#ccf5ac"
         android:layout_marginTop="8dp"
         android:textSize="18sp"
         android:id="@+id/movieReleaseDate"
