@@ -3,7 +3,7 @@ This project was prepared to show random popular movies and movie details. Data 
 
 <img src="https://github.com/Yusuf-Solmaz/MovieAppV2/assets/83172478/d8acd69e-bac3-42cb-af7e-fad83cdd165d"  style="width: 400px; height: 550px;">
 
-
+-----------------------------------------------------
 ## Libraries Used
 
 * [Dependency injection-Koin](https://insert-koin.io/docs/quickstart/android/)
