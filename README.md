@@ -1,7 +1,7 @@
 This project was prepared to show random popular movies and movie details. Data taken from themoviedb.org. Below you can find the usage gif of the application.
 
 
-<img src="https://github.com/Yusuf-Solmaz/MovieAppV2/assets/83172478/d8acd69e-bac3-42cb-af7e-fad83cdd165d"  style="width: 300px; height: 200px;">
+<img src="https://github.com/Yusuf-Solmaz/MovieAppV2/assets/83172478/d8acd69e-bac3-42cb-af7e-fad83cdd165d"  style="width: 400px; height: 350px;">
 
 
 ## Libraries Used
