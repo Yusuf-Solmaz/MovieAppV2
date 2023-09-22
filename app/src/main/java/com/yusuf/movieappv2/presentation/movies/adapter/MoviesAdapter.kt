@@ -5,7 +5,10 @@ import android.view.ViewGroup
 import androidx.navigation.Navigation
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
 import com.google.android.material.animation.AnimatableView.Listener
+import com.yusuf.movieappv2.R
+import com.yusuf.movieappv2.data.util.getImageUrl
 import com.yusuf.movieappv2.databinding.MovieRecyclerViewRowBinding
 import com.yusuf.movieappv2.domain.model.Movie
 import com.yusuf.movieappv2.presentation.movies.view.MoviesFragmentDirections
@@ -35,6 +38,12 @@ class MoviesAdapter(private val movieList: MutableList<Movie>, private val liste
             val action = MoviesFragmentDirections.actionMoviesFragmentToMovieDetailFragment(movieList[position].id)
             Navigation.findNavController(it).navigate(action)
         }
+
+        Glide.with(holder.itemView.context)
+            .load(getImageUrl(movieList[position].imageUrl))
+            .placeholder(R.drawable.img)
+            .transition(DrawableTransitionOptions.withCrossFade())
+            .into(holder.binding.imageView)
 
         holder.binding.movieTitle.text = movieList[position].title
         holder.binding.movieReleaseDate.text = movieList[position].releaseDate
