@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".presentation.movies.view.MoviesFragment">
+    tools:context=".presentation.movies.view.MoviesFragment"
+    android:background="#3d2b56">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
